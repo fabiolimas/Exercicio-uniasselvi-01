@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p id="nome"></p>
+
+
+
+
+
+<script type="text/javascript">
+	
+	var nome=document.querySelector("#nome").innerHTML="Fábio";
+	var caracteres=nome.length;
+	
+	function valor(){
+
+		var resto= caracteres %2;
+
+		if(resto ==0){
+
+			alert(nome+" é Par");
+
+			}else{
+
+				alert(nome+" é Impar");
+
+			}
+		
+
+
+	}
+	valor();
+	
+
+</script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+.center {
+     margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: auto;
+    border-radius: 7px;
+    border: 2px solid;
+    padding: 10px;
+
+}
+body {
+ background-color: #C7E123
+}
+a {
+font-family: sans;
+color: #940f0e;
+}
+p, td, h1, input {
+font-family: tahoma;
+
+
+}
+
+input {
+    background-color: #B7CE20;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+    width: 80%;
+
+}
+h1{
+	text-align: center;
+}
+table {
+ border-collapse: collapse;
+}
+
+table, td, th {
+ border: 1px solid black;
+ padding: 10px;
+}
+input.btn {
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #b3b3b0;
+}
