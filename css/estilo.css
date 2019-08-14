@@ -1,27 +1,43 @@
 .center {
-     margin-left: auto;
+
+    margin-left: auto;
     margin-right: auto;
-    width: 350px;
+    width: 402px;
     height: auto;
     border-radius: 7px;
-    border: 2px solid;
+    margin-bottom: 30px;
     padding: 10px;
+    background: #ffffffa8;
+
+}
+#interface{
+
+    width: 431px;
+     margin-left: auto;
+    margin-right: auto;
+    background: #C7E123;
+    border-radius: 7px;
+    padding:10px;
+    text-align: center;
+    font-family: tahoma;
+
 
 }
 body {
- background-color: #C7E123
+    background-color: #5a5959;
 }
 a {
-font-family: sans;
-color: #940f0e;
+    font-family: tahoma;
+    color: white;
+    text-decoration: none;
 }
 p, td, h1, input {
-font-family: tahoma;
-
-
+    font-family: tahoma;
+    text-align: center;
 }
 
 input {
+
     background-color: #B7CE20;
     border: 0;
     padding: 5px;
@@ -33,21 +49,57 @@ h1{
 	text-align: center;
 }
 table {
- border-collapse: collapse;
+    border-collapse: collapse;
+
 }
 
 table, td, th {
- border: 1px solid black;
- padding: 10px;
+     border: 1px solid black;
+     padding: 10px;
+      text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
 }
-input.btn {
-    width: 100px;
+.btnvencer
+ {
+    width: 80px;
     padding: 5px;
     border-radius: 5px;
-    background: white;
+    background: #1176b3 ;
     font-weight: bold;
     cursor: pointer;
+    border:none;
 }
-.btn:hover {
+.btnvencer:hover {
+    background: #b3b3b0;
+}
+.btndesiste
+ {
+    width: 80px;
+    padding: 5px;
+    border-radius: 5px;
+    background: gray;
+    font-weight: bold;
+    cursor: pointer;
+    border:none;
+}
+.btndesiste:hover {
+    background: #b3b3b0;
+}
+.btn2{
+    width: 134px;
+    padding: 5px;
+    border-radius: 5px;
+    background: #1176b3;
+    font-weight: bold;
+    cursor: pointer;
+    border:none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.btn2:hover {
     background: #b3b3b0;
 }

@@ -11,11 +11,15 @@
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
 <body>
+	<div id="interface">
 <div class="center">
 	<h1>Lista de Hábitos</h1>
 
 	Cadastre aqui os hábitos  que você tem que vencer para melhorar sua vida!<br><br>
 
+</div>
+
+<div class="center">
 	<table id="tabela">
 		<tr>
 			<td><b>Hábito</td>
@@ -38,7 +42,7 @@
 			
 			echo"<tr id='dados'>";
 			echo"<td>".$dados['habito']."</td>";
-			echo"<td><a href='vencer.php?id=".$dados['id']."'>Vencer</a> - <a href='desistir.php?id=".$dados['id']."'>Desistir</a></td>";
+			echo"<td><button class='btnvencer'><a href='vencer.php?id=".$dados['id']."'>Vencer</a></button> - <button class='btndesiste'><a href='desistir.php?id=".$dados['id']."'>Desistir</a></button></td>";
 			echo"</tr>";
 				
 		}
@@ -53,10 +57,16 @@
 
 
 	?>
+</div>
 
-<a href='novo.php' ><button class="btn">Cadastrar Hábito</button></a><br><br>
 
 </table>
+</div>
+<div class="center">
+	<p>Continue mudando sua vida</p>
+	<P>Cadastre mais hábitos</P>
+<a href='novo.php' ><button class="btn2">Cadastrar Hábito</button></a><br><br>
+</div>
 </div>
 <script type="text/javascript">
 	

@@ -11,12 +11,13 @@
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
 <body>
+	<div id="interface">
 <div class="center">
 	<h1>Novo Hábito</h1>
 
 	<form method="post" action="#">
 		Nome:<input type="text" name="nome"><br><br>
-		<input type="submit" name="" value="Criar" class="btn">
+		<input type="submit" name="" value="Criar" class="btnvencer">
 	</form>
 	
 	<?php
@@ -43,6 +44,7 @@
 	?>
 
 
+</div>
 </div>
 
 </body>
